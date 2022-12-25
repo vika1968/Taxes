@@ -1,0 +1,65 @@
+body {
+      font-family:'Times New Roman', Times, serif;
+      
+     .container {
+          display: grid;
+          width: 25%;
+          margin: 50px auto;
+          padding-top: 250px ;
+
+            .upper-info-box{    
+                  background: rgb(200, 219, 222);
+                  text-align: center;
+                  box-shadow: 10px 10px 18px #888888;
+                  color:   rgb(98, 12, 23);
+                  font-size: 32px;          
+            }
+
+            .form form {
+                  display: flex; 
+                  justify-content: center;
+                  align-items: center;
+                  
+                  .btnSubmit, .getSalary, .btnClear {   
+                      box-shadow: 5px 10px 8px #888888;             
+                      }            
+            }
+
+            .salary-result-box{  
+                  height: 100%;  
+                  background: rgb(200, 219, 222);
+                  text-align: center;
+                  box-shadow: 10px 10px 8px #888888;                 
+
+                  .divH3 {
+                    padding: 5px auto;
+                    font-size: 25px;                           
+                  }  
+                  
+                  .divH4{        
+                    font-size: 20px;   
+                    }                  
+
+                  .divH3, .divH4  {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center; 
+                      font-weight: bold;            
+                  }               
+           
+                  .span1 , .span2 {                     
+                      padding-left:5px;
+                      padding-right: 5px;
+                       font-size: 30px;
+                       font-weight: bold;
+                  }                   
+             }   
+        }    
+  }
+
+
+
+
+  
+
+  

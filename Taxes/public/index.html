@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Salary Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./index.css" rel="stylesheet">      
+    </head>
+    <body>     
+      <div class="container"> 
+          <div class="upper-info-box">
+              <h2>Tax Calculator</h2>
+          </div>
+
+          <br>  
+
+          <div class ="form">
+            <form>
+                <label for="salary"><b>Enter gross salary</b><label>
+                <input type="text" id="salary" class="getSalary" size="15" placeholder="Enter your salary here ..." required/>     
+                <input type="submit" value=" Calculate salary " class = "btnSubmit"/> 
+                <input type="button" value=" Clear " class = "btnClear"/>               
+            </form>
+          </div> 
+
+           <br>
+
+           <div class="salary-result-box">
+                <div class = "divH3"><h3>Enter your salary to get the result</h3><span class="span1"></span><span class="wordShek"></span></div>
+                <div class = "divH4"><h4>Your taxes will be shown here ...</h4><span class="span2"></span><span class="wordShek" id ="spanInfoPercentage"></span></div>
+          </div>
+        </div>
+       <script src="./index.js"></script>    
+    </body>
+</html>
